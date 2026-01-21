@@ -1,9 +1,16 @@
 # kaishi_with_links
-kaishi improved html/css
-
-Пример карточки:
+## Вид карточки:
 
 <img src="https://github.com/thebefast6239/kaishi_with_links/raw/main/example.jpg" width="320px">
+
+  внизу добавлены иконки на сайты
+клик по ним, перенаправляет вас на сайт (сразу с нужным словом)
+1. jpdb.io словарь
+2. jisho.org словарь
+3. google search по картинкам
+4. immersionkit.com поиск по аниме, сериалам, играм
+5. nadeshiko.co поиск по аниме, сериалам, играм 
+
 
 ## быстрая установка если уже стоит Kaishi 1.5k RU
 1. скачайте 'Kaishi RU With Links.apkg'
