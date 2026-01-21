@@ -1,0 +1,64 @@
+<div class="container" lang="ja">
+<div lang="ja">
+  {{furigana:Word Furigana}}
+
+  {{#Pitch Accent}}
+    <br><div style="font-size:24px">{{Pitch Accent}}</div>
+  {{/Pitch Accent}}
+
+  <div style="font-size:25px; padding-bottom:20px; font-family: sans-serif">{{Word Meaning (Russian)}}</div>
+  <div style="font-size:25px">{{furigana:Sentence Furigana}}</div>
+  <div style="font-size:25px; padding-bottom:10px; font-family: sans-serif">{{Sentence Meaning (Russian)}}</div>
+
+  {{Word Audio}}
+  {{Sentence Audio}}
+  <br>
+  {{Picture}}
+
+  {{#Notes (Russian)}}
+    <br><div style="font-size:20px; padding-top:12px; font-family: sans-serif">{{Notes (Russian)}}</div>
+  {{/Notes (Russian)}}
+<br>
+  {{#Pitch Accent Notes (Russian)}}
+    <div style="font-size:15px; width:fit-content; max-width:60vw; margin:auto; font-family: sans-serif">
+      <details><summary>Заметки по питч акценту</summary><br>{{Pitch Accent Notes (Russian)}}</details>
+    </div>
+  {{/Pitch Accent Notes (Russian)}}
+
+<div class="external-links">
+  <!-- Jpdb -->
+  <a data-details="JPDB словарь" href="https://jpdb.io/search?q={{Word}}">
+    <img class="light-icon" src="_icon_jpdb_lightmode.png" alt="JPDB">
+    <img class="dark-icon" src="_icon_jpdb_darkmode.png" alt="JPDB">
+  </a>
+
+  <!-- Jisho -->
+  <a data-details="Jisho словарь" href="https://jisho.org/search/{{Word}}">
+    <img class="light-icon" src="_icon_jisho_lightmode.png" alt="Jisho">
+    <img class="dark-icon" src="_icon_jisho_darkmode.png" alt="Jisho">
+  </a>
+
+  <!-- Google Images -->
+  <a data-details="Найти картинки" href="https://www.google.co.jp/search?q={{Word}}&amp;tbm=isch">
+    <img class="light-icon" src="_icon_image_black.svg" alt="Google Images">
+    <img class="dark-icon" src="_icon_image_white.svg" alt="Google Images">
+  </a>
+
+  <!-- Immersion Kit -->
+  <a data-details="Примеры из аниме" href="https://immersionkit.com/dictionary?keyword={{Word}}">
+    <img class="light-icon" src="_icon_immersion_kit.ico" alt="Immersion Kit">
+    <img class="dark-icon" src="_icon_immersion_kit.ico" alt="Immersion Kit">
+  </a>
+
+  <!-- Nadeshiko -->
+  <a data-details="Примеры из аниме" href="https://nadeshiko.co/search/sentence?query={{Word}}">
+    <img class="light-icon" src="_icon_nadeshiko.ico" alt="Nadeshiko">
+    <img class="dark-icon" src="_icon_nadeshiko.ico" alt="Nadeshiko">
+  </a>
+
+</div>
+
+
+<div class="bottomlink" style="font-family: sans-serif">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSevSujDxXpxMIwPEcLWitZtBCegxXU5qhv_6b2PKsQtTLnh9A/viewform?usp=pp_url&entry.710712663={{Word}}">Сообщить об ошибке | Версия 2.0</a>
+</div>
