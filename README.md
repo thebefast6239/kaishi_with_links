@@ -1,7 +1,9 @@
 # kaishi_with_links
 kaishi improved html/css
 
-<img src="https://github.com/thebefast6239/kaishi_with_links/raw/main/example.jpg" width="50%">
+Пример карточки:
+
+<img src="https://github.com/thebefast6239/kaishi_with_links/raw/main/example.jpg" width="320px">
 
 ## быстрая установка если уже стоит Kaishi 1.5k RU
 1. скачайте 'Kaishi RU With Links.apkg'
