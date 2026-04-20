@@ -1,6 +1,39 @@
 <div class="container" lang="ja">
+  <div class="brr"></div>
+  <div class="brr"></div>
+  <div class="brr"></div>
 
-<div lang="ja">
-{{Word}}
-<div style='font-size: 20px;'>{{Sentence}}</div>
-</div></div>
+  <div class="front--card" onclick="toggleSentence()">
+    
+    <div class="clickable-word">
+      {{Word}}
+    </div>
+
+		<div class="external-links-v2">
+  		<div id="sentence-block" class="sentence-hidden" style="font-size:25px" onclick="event.stopPropagation()">
+    		{{Sentence}}
+  		</div>
+		</div>
+  </div>
+</div>
+
+<script>
+function toggleSentence() {
+  const el = document.getElementById('sentence-block');
+
+  if (!el) return;
+
+  const isOpen = el.classList.contains('is-visible');
+
+  if (!isOpen) {
+    el.style.maxHeight = el.scrollHeight + 'px';
+    el.classList.add('is-visible');
+  } else {
+    el.style.maxHeight = el.scrollHeight + 'px';
+    requestAnimationFrame(() => {
+      el.classList.remove('is-visible');
+      el.style.maxHeight = '0px';
+    });
+  }
+}
+</script>
