@@ -1,4 +1,7 @@
 # kaishi_with_links
+
+Сейчас (20 апреля 2026) данный шаблон подходит только для тёмной темы. Фикс для белой делать пока что лень.
+
 ## Вид карточки:
 
 <img src="https://github.com/thebefast6239/kaishi_with_links/raw/main/example.jpg" width="320px">
